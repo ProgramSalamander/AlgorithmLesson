@@ -45,4 +45,5 @@ if __name__ == '__main__':
         # print(min_permutations)
         min_permutations.sort(reverse=True)
         print(",".join(" ".join(str(task_no + 1) for task_no in permutation) for permutation in min_permutations))
+        
 

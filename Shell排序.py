@@ -23,6 +23,7 @@
 #
 # 13 4 49 38 27 49 55 65 97 76
 
+
 def shell_sort(array, intervals):
     _array = array
     for interval in intervals:
